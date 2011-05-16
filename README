@@ -1,0 +1,14 @@
+Super simple way to get growl notifications from twitter mentions.
+
+set up:
+1. install Twitter and ruby-growl gems
+2. set up Growl to accept remote connections
+3. find and insert OAUTH tokens into the Authenticate method
+4. run!
+
+note: branches a process that must be killed remotely.  This is my first real ruby project so this will be fixed in the near future.
+
+TODO:
+-store OAUTH info in a YAML file
+-use Streaming API
+-kill forked process when you kill the app
